@@ -1,4 +1,5 @@
 import 'package:crud/pages/landingpage.dart';
+import 'package:crud/screens/homescreen.dart';
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Landingpage(),
+      home: homescreen(),
     );
   }
 }
